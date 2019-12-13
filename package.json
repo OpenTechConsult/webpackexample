@@ -1,0 +1,42 @@
+{
+  "name": "webpackexample",
+  "version": "1.0.0",
+  "description": "A simple project to learn how to use webpack in a Node project",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenTechConsult/webpackexample.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Webpack",
+    "Babel",
+    "Loaders",
+    "Plugings",
+    "Transpilers",
+    "React",
+    "ReactDOM"
+  ],
+  "author": "OpenTechConsult",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenTechConsult/webpackexample/issues"
+  },
+  "homepage": "https://github.com/OpenTechConsult/webpackexample#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
